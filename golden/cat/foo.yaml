@@ -1,0 +1,7 @@
+source: examples/cat.asm
+stdin: |-
+  10 102 f
+  37 112 p
+  269 111 o
+stdout: |-
+  fo

@@ -1,0 +1,7 @@
+source: examples/cat_int.asm
+stdin: |-
+  0 102  f
+  21 111 o
+  42 108 l
+stdout: |-
+  fol

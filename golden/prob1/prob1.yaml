@@ -1,0 +1,4 @@
+source: examples/prob1.asm
+stdin:
+stdout: |-
+  1013

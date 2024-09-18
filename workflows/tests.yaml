@@ -1,0 +1,24 @@
+name: tests
+
+on: push
+
+jobs:
+  unit_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@4
+      - name: python
+        uses: actions/setup-python@4
+        with:
+          python-version 3.12
+      - name: dependencies
+        run: bash ./ci/dependencies.sh
+      - name: unit tests
+        run: bash ./ci/unit_tests.sh
+      - name: golden tests
+        run: bash ./ci/golden_tests.sh
+      - name: ruff
+        run: bash ./ci/check_ruff.sh
+      - name: mypy
+        run: bash ./ci/check_mypy.sh

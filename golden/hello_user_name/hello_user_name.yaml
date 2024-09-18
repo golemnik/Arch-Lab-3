@@ -1,0 +1,10 @@
+source: examples/hello_user_name.asm
+stdin: |-
+  10 65 A
+  100 108 l
+  200 105 i
+  300 99  c
+  400 101 e
+stdout: |-
+  What is your name?
+  Hello, Alice!

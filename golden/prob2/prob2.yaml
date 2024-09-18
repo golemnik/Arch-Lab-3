@@ -1,0 +1,4 @@
+source: examples/prob2.asm
+stdin:
+stdout: |-
+  4613732

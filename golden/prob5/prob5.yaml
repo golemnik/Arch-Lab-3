@@ -1,0 +1,4 @@
+source: examples/prob5.asm
+stdin:
+stdout: |-
+  670442572800
