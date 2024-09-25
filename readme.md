@@ -234,7 +234,7 @@ command_with_label ::= 'jump'
 
 ### Схемы
 
-![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 Устройства схемы "DataPath":
 * Control Unit 
@@ -249,7 +249,7 @@ command_with_label ::= 'jump'
   * Port - порт внешнего устройства
   * Pos - позиция в стеке
 
-![img_1.png](img_1.png)
+![img_4.png](img_4.png)
 
 Устройства схемы "Control Unit":
 * Decoder - выполняет работу над инструкциями.
